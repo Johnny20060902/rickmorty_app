@@ -6,6 +6,7 @@ class CharacterDetailScreen extends StatelessWidget {
 
   const CharacterDetailScreen({super.key, required this.character});
 
+// Pantalla de detalla para cada personaje, nombre, imagen , estado y especie
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -10,7 +10,7 @@ class CharacterListScreen extends StatefulWidget {
   State<CharacterListScreen> createState() => _CharacterListScreenState();
 }
 
-//Sacar la lista de pantallas respecto al Stateful.
+//Sacar la pantalla de listas respecto al Stateful. -- Johnny
 class _CharacterListScreenState extends State<CharacterListScreen> {
   late Future<List<Character>> futureCharacters;
 
@@ -20,6 +20,8 @@ class _CharacterListScreenState extends State<CharacterListScreen> {
     futureCharacters = ApiService().fetchCharacters();
   }
 
+// FutueBuilder
+// Control de estados para la API en la Lista -- Mateo
   @override
   Widget build(BuildContext context) {
     return Scaffold(
