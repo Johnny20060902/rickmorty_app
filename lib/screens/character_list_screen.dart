@@ -10,6 +10,7 @@ class CharacterListScreen extends StatefulWidget {
   State<CharacterListScreen> createState() => _CharacterListScreenState();
 }
 
+//Sacar la lista de pantallas respecto al Stateful.
 class _CharacterListScreenState extends State<CharacterListScreen> {
   late Future<List<Character>> futureCharacters;
 

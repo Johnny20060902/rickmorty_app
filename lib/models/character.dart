@@ -23,3 +23,4 @@ class Character {
     );
   }
 }
+//Creación de los datos del personaje y la clase.

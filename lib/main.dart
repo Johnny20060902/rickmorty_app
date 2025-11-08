@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { 
     return MaterialApp(
       title: 'Rick and Morty App',
       debugShowCheckedModeBanner: false,
@@ -20,3 +20,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//Será para agregar la app sacando de la API.
